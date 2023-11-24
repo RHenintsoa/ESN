@@ -15,6 +15,11 @@
 <body>
     <div class="container-fluid">
         <div class="row">
+            <div class="col-6">
+                <a href="insert.php" class="btn btn-info"> Ajouter</a>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-12">
                 <table class="table table-stripped">
                     <thead>
