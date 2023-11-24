@@ -16,7 +16,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-6">
-                <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
+                <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="input-name"class="form-label">Nom</label>
                         <input type="text" name="name" id="input-name" class="form-control">
@@ -41,6 +41,11 @@
                         <label for="input-address" class="form-label">Adresse</label>
                         <input type="text" name="address" id="input-address" class="form-control">
                     </div> 
+                    <div class="form-group">
+                        <label for="input-image">Choisir un image</label>
+                        <input type="file" name="image" id="input-image">
+                    </div>
+                   
                     <div class="form-group">
                         <button class="btn btn-primary" type="submit"> Valider</button>
                     </div>
